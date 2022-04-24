@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            /*
+            block level element
+            */
+            h1{
+                border: 5px;
+                border-color: red;
+                border-style: solid;
+                /* display: inline; */
+            }
+            /* 
+            inline element
+            */
+            a{
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+                /* display: block; */
+            }
+            /* 중복 줄이는 방법(위와 같은 코드) */
+            h1, a{
+                border-width: 5px red solid;
+                padding: 20px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>Cascading Style Sheets (
+            <a href="https:www.naver.com">CSS</a>
+            is a style sheet lang.
+    </body>
+</html>

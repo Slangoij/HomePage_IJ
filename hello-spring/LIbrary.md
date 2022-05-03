@@ -39,3 +39,6 @@ Hello
   - `static/index.html`을 올려두면 Welccome page 기능을 제공한다.
   - https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-
     features.html#boot-features-spring-mvc-welcome-page
+
+- gradle을 선택한 이유: maven 대신에?
+  - 일단 강사님이 요즘 많이 쓴다고 했었기에...

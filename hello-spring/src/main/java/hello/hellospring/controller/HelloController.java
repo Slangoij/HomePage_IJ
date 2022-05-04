@@ -26,7 +26,7 @@ public class HelloController {
     //이 문자가 그대로 들어감, 여기서 Body부는 html의 바디가 아니라
     //http의 body를 의미. 여기서 return값이 그대로 html의 소스로 들어감.
     public String helloString(@RequestParam("name") String name){
-        return "Hello! " + name; //"hello spring"
+        return "Hello! " + name + "<a href=\"/index.html\">backtohome</a>"; //"hello spring"
     }
 
     @GetMapping("hello-api")
@@ -50,5 +50,11 @@ public class HelloController {
         public void setName(String name){
             this.name = name;
         }
+    }
+
+    @GetMapping("ijij")
+    public String statictest(Model model){
+        model.addAttribute("name1", "hihi");
+        return "ijtest";
     }
 }

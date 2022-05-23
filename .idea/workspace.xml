@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6cad5eb-5171-4f24-aed0-a89407772dc2" name="Changes" comment="" />
+    <list default="true" id="f6cad5eb-5171-4f24-aed0-a89407772dc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/스프링 입문-코드로 배우는 스프링부트, 웹MVC,DB접근기술_v2021-12-01_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/스프링 입문-코드로 배우는 스프링부트, 웹MVC,DB접근기술_v2021-12-01_2.pdf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,9 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
